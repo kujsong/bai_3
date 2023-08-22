@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.title {
+  text-transform: uppercase;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 70px;
+}
+
+.ruler {
+  border: 3px solid red;
+  margin: 0 240px;
+}
+
+/* MAIN CONTENT */
+
+.form-box {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 45px 360px;
+}
+
+.form-box div {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.form-box .input-type input {
+  width: 100%;
+  height: 30px;
+}
+
+.form-box .input-type label {
+  width: 40%;
+  margin-right: 12px;
+}
+
+.form-box div label {
+  width: 30%;
+}
+
+.form-box div select {
+  height: 30px;
+  font-size: 18px;
+}
+
+.gender-selector {
+  gap: 12px;
+}
+
+.course-selector {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-selector div {
+  gap: 12px;
+}
+
+.align-start {
+  display: flex;
+  align-self: flex-start;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.form-box .button button {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
